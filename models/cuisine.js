@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const  { Schema } = require('mongoose')
 
-const Cusine = new Schema(
+const Cuisine = new Schema(
     {
         name: { type: String, required: true },
         origin_country: { type: String, required: true },
@@ -11,4 +11,4 @@ const Cusine = new Schema(
     { timestamps: true },
 )
 
-module.exports = mongoose.model('cuisines', Cusine)
+module.exports = mongoose.model('cuisines', Cuisine)
