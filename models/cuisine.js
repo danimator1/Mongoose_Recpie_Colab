@@ -11,4 +11,4 @@ const Cusine = new Schema(
     { timestamps: true },
 )
 
-module.exports = mongoose.model('cusine', Cusine)
+module.exports = mongoose.model('cuisines', Cusine)
